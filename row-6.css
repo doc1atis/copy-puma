@@ -1,0 +1,19 @@
+.row-6-pictures-x2 {
+  display: grid;
+  grid-template-areas: "picture-1 picture-2";
+  grid-template-columns: repeat(2, 1fr);
+  grid-area: row-6;
+  background-color: #191919;
+  justify-items: center;
+}
+
+.picture-row-6 {
+  width: 95%;
+}
+
+.row-6-picture-1 {
+  padding-left: 28px;
+}
+.row-6-picture-2 {
+  padding-right: 28px;
+}
